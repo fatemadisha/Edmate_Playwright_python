@@ -30,10 +30,10 @@ def run(playwright):
     page.goto(login_url)
 
     # Enter username
-    page.fill("//input[@id='outlined-adornment-email-login']", "new_admin_qa")
+    page.fill("//input[@id='outlined-adornment-email-login']", "*******")
 
     # Enter password
-    page.fill("//input[@id='outlined-adornment-password-login']", "Nopass@1234")
+    page.fill("//input[@id='outlined-adornment-password-login']", "******")
 
     # Click the submit button
     page.click("//button[@type='submit']")
